@@ -1602,6 +1602,7 @@ EOTEXT
             'revision_id' => null,
             'edit'        => 'create',
             'fields'      => $fields,
+            'branch' => $this->getRepositoryAPI()->getBranchName(),
           ));
       }
     }
